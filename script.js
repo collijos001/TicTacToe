@@ -5,6 +5,7 @@ let createButton = function(){
     content.appendChild(btn);
 };
 
+
 let createTable = function(){
     let table = document.createElement("BOARD");
     let row1 = document.createElement("TR");
@@ -71,6 +72,10 @@ let createTable = function(){
 
     let content = document.getElementById("content");
     content.appendChild(table);
+
+    let image = document.createElement ("IMG");
+    image.src = "image1.png";
+    image.onclick
 
 };
 
