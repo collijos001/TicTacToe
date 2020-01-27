@@ -1,7 +1,6 @@
 let createButton = function(){
     let btn = document.createElement("BUTTON");
     btn.innerHTML = "Start";
-    btn.onclick = createTable();
     let content = document.getElementById("content");
     content.appendChild(btn);
 };
@@ -34,15 +33,15 @@ let createTable = function(){
     let data7 = document.createElement("TD");
     let data8 = document.createElement("TD");
     let data9 = document.createElement("TD");
-    data1.innerText = "XO";
-    data2.innerText = "XO";
-    data3.innerText = "XO";
-    data4.innerText = "XO";
-    data5.innerText = "XO";
-    data6.innerText = "XO";
-    data7.innerText = "XO";
-    data8.innerText = "XO";
-    data9.innerText = "XO";
+    data1.innerText = "X";
+    data2.innerText = "X";
+    data3.innerText = "X";
+    data4.innerText = "X";
+    data5.innerText = "X";
+    data6.innerText = "X";
+    data7.innerText = "X";
+    data8.innerText = "X";
+    data9.innerText = "X";
 
     row1.appendChild(colHeading1);
     row1.appendChild(colHeading2);
@@ -73,8 +72,5 @@ let createTable = function(){
     let content = document.getElementById("content");
     content.appendChild(table);
 
-
-
 };
 
-let image = document.createElement("IMG");

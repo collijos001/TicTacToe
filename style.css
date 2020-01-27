@@ -1,15 +1,18 @@
-h1{
+h1 {
     color: Black;
     text-align: center;
-    font-family: "Bahnschrift";
+    font-family: "SansSerif", serif;
+
 }
 
-TD{
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    margin: 100px;
+TD {
     display: inline-block;
-    font-size: 36px;
+    font-size: 100px;
+    background-color: red;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-spacing: initial;
+
 }
 
 
