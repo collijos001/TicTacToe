@@ -69,13 +69,24 @@ let createTable = function(){
     table.appendChild(row3);
     table.appendChild(row4);
 
+    //image.onclick = togglePicture;
+    //image.src = "image1.png";
 
     let content = document.getElementById("content");
     content.appendChild(table);
 
-    let image = document.createElement ("IMG");
-    image.src = "image1.png";
-    image.onclick
+    image = document.createElement ("IMG");
+    content.append(image);
 
+    let togglePicture = function(){
+        if(togglePic === true){
+            image.src = "image1.png";
+            togglePic = false;
+        }else{
+            image.src = "image2.png";
+            togglePic = true;
+        }
+    };
+    togglePic = true;
 };
 
